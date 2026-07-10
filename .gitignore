@@ -1,0 +1,14 @@
+# IDE files - ignore editor and IDE-specific settings
+.vs/
+.vscode/
+.idea/
+
+# Build outputs - ignore generated files and dependencies
+bin/
+obj/
+node_modules/
+dist/
+
+# Operating system files - ignore OS-generated metadata files
+.DS_Store
+Thumbs.db
