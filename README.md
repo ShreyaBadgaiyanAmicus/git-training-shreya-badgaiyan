@@ -44,3 +44,20 @@ git push
 
 Main branch received new updates before sidebar integration.
 
+
+## Rebase Explanation
+
+### When should you rebase vs merge?
+
+Rebase is useful when you want to update a feature branch with the latest changes from main and maintain a clean, linear project history.
+
+Merge is useful when combining completed branches and preserving the complete history of how branches were integrated.
+
+### Golden Rule of Rebasing
+
+Never rebase commits that have already been pushed and shared with other developers.
+
+Rebasing rewrites commit history by creating new commit IDs. If other people are using the old history, rebasing can create confusion and require them to resolve unnecessary problems.
+
+In this task, the feature branch was rebased before merging because it was a private development branch.
+
