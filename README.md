@@ -3,7 +3,7 @@
 Name-Shreya Badgaiyan
 Training Batch-Batch1
 Date-10-07-2026
-About the Project-
+About the Project- This is a simple project built using html, css and js.
 
 
 
