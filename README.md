@@ -3,7 +3,7 @@
 Name-Shreya Badgaiyan
 Training Batch-Batch1
 Date-10-07-2026
-About the Project-
+About the Project-  This is a simple project built using html, css and js.
 
 
 
@@ -21,30 +21,12 @@ If `.gitignore` is not added before the first commit, unwanted files such as IDE
 
 How do you fix it retroactively?
 
-
-
 Adding files to `.gitignore` after they have already been committed does not remove them from Git tracking. You need to remove the files from Git's index while keeping them on your computer, then commit the change.
 
 
-
-Commands:
-
+A fast-forward merge occurs when the target branch has not diverged from the source branch, allowing Git to move the branch pointer forward instead of creating a separate merge commit. If both branches contain different commits after branching, Git performs a regular merge commit instead.
 
 
-```bash
-
-git rm -r --cached .
-
-git add .
-
-git commit -m "Add .gitignore and remove unwanted files"
-
-git push
-
-
-## Latest Main Update
-
-Main branch received new updates before sidebar integration.
 
 
 ## Rebase Explanation
